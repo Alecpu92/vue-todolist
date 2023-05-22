@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    margin: 20px 20px 0;
+}
+
+#delete{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+}
+
+#done{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    color: green;
+    margin-left: 10px;
+}
+
+#input-container{
+    margin: 20px 20px 0;
+}
+
+.done-line{
+    text-decoration: line-through;
+}
+
+.empty-tasks{
+    margin: 20px 20px 0;
+    filter: opacity(0.5);
+}
+
+.date{
+    color: grey;
+    font-size: 0.9em;
+}
+.date span{
+    margin: 0 10px;
+}
